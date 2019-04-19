@@ -19,9 +19,9 @@ Enjoy!
 
 
 ## Task list: 
- [x] Create wireframe for chat application
- [x] Implement dummy chat application with React
- [x] Implement Chatkit SDK and add interactivity
- [x] Add ability to create rooms 
- [ ] Implement user authentication/creation
- [ ] Add a private messaging feature
+- [x] Create wireframe for chat application
+- [x] Implement dummy chat application with React
+- [x] Implement Chatkit SDK and add interactivity
+- [x] Add ability to create rooms 
+- [ ] Implement user authentication/creation
+- [ ] Add a private messaging feature
