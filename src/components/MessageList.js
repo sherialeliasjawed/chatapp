@@ -20,7 +20,7 @@ class MessageList extends Component {
     if (!this.props.roomId) {
       return (
         <div className="message-list">
-          <div className="join-room">&larr; Join a room!</div>
+          <div className="join-room">Join a room! &rarr;</div>
         </div>
       );
     }
@@ -30,6 +30,7 @@ class MessageList extends Component {
           return (
             <Message
               key={index}
+              textDate={message.textDate}
               username={message.senderId}
               text={message.text}
             />

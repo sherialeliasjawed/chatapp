@@ -29,12 +29,12 @@ class NewRoomForm extends React.Component {
           <input
             onChange={this.handleChange}
             type="text"
-            placeholder="Create a room"
+            placeholder="Create new room.."
             value={this.state.roomName}
             required
           />
           <button id="create-room-btn" type="submit">
-            +
+            Add
           </button>
         </form>
       </div>
